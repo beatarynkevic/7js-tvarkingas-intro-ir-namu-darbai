@@ -56,3 +56,38 @@ friends = friends + ', ' + names[2];
 friends = friends + ', ' + names[1];
 friends = friends + ', ' + names[0];
 console.log(friends);
+
+//Kintamuju palyginimas if () {} skaiciu
+
+const accountBalance = 100;
+const transfer = 110;
+const transfer2 = 80;
+
+if (transfer > accountBalance) {
+    console.log('Bandykite kitą kartą');
+}
+
+if (transfer2 <= accountBalance) {
+    console.log('pomidoras');
+}
+
+if (transfer === transfer2) {
+    console.log('pomidoras');
+} else {
+    console.log('nelygus');
+}
+
+//Slaptazodzio palyginimas. Teksto tipas
+
+const pass1 = 'abcdef';
+const pass2 = 'abc';
+
+if (pass1 === pass2) {
+    console.log(true);
+} else {
+    console.log('slaptazodis nesutampa');
+}
+
+if (pass1.length > pass2.length) {
+    console.log(pass1.length);
+}
