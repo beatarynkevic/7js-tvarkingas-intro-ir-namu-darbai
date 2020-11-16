@@ -26,25 +26,35 @@ let letters = '';
 const word = 'abcdef';
 
 for (let i = word.length - 1; i >= 0; i--) {
-    letters = letters + word[i];
+    const zodis = word[i];
+    letters = letters + zodis;
 }
-console.log(letters);
+console.log(word, '->', letters );
 
+
+/* for (let i = 0; i < word.lenght; i++) {
+    const lett = word[i];
+    letters = letters + lett;
+}
+console.log(word, '->', letters ); */
 
 //3.Kiek skaiciu intervale,kurie dalijasi be liekanos is 3, 5 ir 7 atskirai
+
 //0-11 is 3
 
-
+const nuo = 0;
+const iki = 11;
+const daliklis = 3;
 let output = '';
 
-for (let a = 0; a <= 11; a++) {
-    if (a % 3 === 0) {
+for (let a = nuo; a <= iki; a++) {
+    if (a % daliklis === 0) {
         output = output + a;
     }
 }
 
 
-console.log(`Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra ${output.length} vienetai `);
+console.log(`Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${daliklis} yra ${output.length} vienetai `);
 
 //8-31
 
