@@ -31,9 +31,6 @@ console.log(duKv);
 console.log(ketKv);
 console.log(dauginimas(10));
 
-//
-console.log(Math.pow(2, 3));
-//
 
 function laipsnis(base, power) {
     let rez = 1;
