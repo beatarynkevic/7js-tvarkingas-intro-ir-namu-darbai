@@ -92,7 +92,7 @@ console.clear();
 function faktorialas(n) {
     let rez = 1;
 
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= n; i++) { //nuo 1 iki n-tojo imtinai
         rez = rez * i;
     }
 
