@@ -8,3 +8,5 @@ function laipsnis(base, power) {
 
 const kubas = laipsnis(2, 3);
 console.log(kubas);
+
+console.log(Math.pow(3, 3)); 
